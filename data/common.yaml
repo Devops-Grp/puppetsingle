@@ -1,0 +1,8 @@
+---
+testmodulehiera::ssh_packages: 'openssh'
+testmodulehiera::permit_root_login : 'no'
+testmodulehiera::ssh_service: 'sshd'
+testmodulehiera::ssh_users : 
+   - testuser
+   - tomcat
+   - puppet

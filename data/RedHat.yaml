@@ -1,0 +1,4 @@
+---
+ssh_users: 
+  - root
+testmodulehiera::ssh_packages: openssh 
